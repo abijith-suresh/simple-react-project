@@ -1,7 +1,7 @@
 import "./App.css";
-import Counter from "./components/CountProject/Counter";
+import MovieComponent from "./components/MovieProject/MovieComponent";
 function App() {
-  return <Counter />;
+  return <MovieComponent />;
 }
 
 export default App;

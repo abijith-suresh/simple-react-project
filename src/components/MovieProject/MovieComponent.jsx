@@ -1,4 +1,5 @@
 import MoviePropsComponent from "./MoviePropsComponent";
+import "./MovieComponent.css"
 
 const MovieComponent = () => {
   const movies = [
@@ -54,7 +55,7 @@ const MovieComponent = () => {
     );
   });
 
-  return <>{movieElements}</>;
+  return <div className="movie-container">{movieElements}</div>;
 };
 
 export default MovieComponent;
