@@ -1,12 +1,7 @@
 import "./App.css";
-import PersonComponent from "./components/PersonComponent";
-
+import Counter from "./components/CountProject/Counter";
 function App() {
-  return (
-    <>
-      <PersonComponent />
-    </>
-  );
+  return <Counter />;
 }
 
 export default App;
